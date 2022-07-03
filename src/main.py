@@ -14,7 +14,7 @@ def main():
     player_y = int(screen_height / 2)
 
     tileset = tcod.tileset.load_tilesheet(
-        "./resources/dejavu10x10_gs_tc.png", 32, 8, tcod.tileset.CHARMAP_TCOD
+        "../resources/dejavu10x10_gs_tc.png", 32, 8, tcod.tileset.CHARMAP_TCOD
     )
 
     event_handler = EventHandler()
